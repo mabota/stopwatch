@@ -1,0 +1,31 @@
+/* sw.css */
+body {
+    background-image: url('stopwatch_haikei.jpg'); /* 無料サイトhttps://www.pakutaso.com/userpolicy.htmlから利用 */
+    background-size: cover; /* 画像をコンテナに合わせます */
+    background-position: center; /* 画像を中央に配置します */
+    background-repeat: no-repeat; /* 画像が繰り返し表示されないようにします */
+    height: 100vh; /* ビューポートの高さを100%に設定します */
+    margin: 0; /* マージンを削除します */
+}
+
+#stopwatch {
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.7); /* 背景画像が見えるように半透明の背景色を追加 */
+    padding: 20px;
+    border-radius: 10px; /* 角を丸くする */
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#time {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+}
